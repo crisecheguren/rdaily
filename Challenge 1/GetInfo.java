@@ -21,6 +21,13 @@ public class GetInfo {
 		System.out.println( "What's your name?" );
 		name = keyboard.next();
 
+		System.out.println( "Alright, " + name + ". How old are ya?" );
+		age = keyboard.nextInt();
+
+		System.out.println( "What's your reddit username?" );
+		username = keyboard.next();
+
+		System.out.println( "Your name is " + name + ", you are " + age +" years old, and your username is " + username + "." );
 
 	}
 }
