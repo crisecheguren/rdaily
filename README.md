@@ -1,1 +1,1 @@
-# /r/daily programmer excerices
+# /r/dailyprogrammer excerices
