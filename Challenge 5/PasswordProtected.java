@@ -37,10 +37,10 @@ public class PasswordProtected {
 		// an array of chars from the console using .readPassword!
 		char[] passString = console.readPassword();
 		// takes the array and makes it a string
-    	password = new String(passString);
+		password = new String(passString);
 
 
-    	// new file wrapped in a scanner to look for the account credentials
+		// new file wrapped in a scanner to look for the account credentials
 		Scanner accountIn = new Scanner( new File("accounts.txt") );
 
 		System.out.println("Verifying...");
