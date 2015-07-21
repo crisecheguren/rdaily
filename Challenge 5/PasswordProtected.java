@@ -16,10 +16,7 @@ public class PasswordProtected {
 
 
 	public static void main(String[] args) throws Exception {
-		String user,
-			   password,
-			   accountUser,
-			   accountPassword;
+		String user, password, accountUser, accountPassword;
 
 		// Create a console object to obfuscate the password.
 		Console console = System.console();
